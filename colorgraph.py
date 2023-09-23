@@ -1,4 +1,5 @@
 import networkx as nx
+from networkx import network_simplex as nx
 import matplotlib.pyplot as plt
 
 def greedy_region_coloring(graph, regions):
@@ -46,3 +47,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#opencv 
